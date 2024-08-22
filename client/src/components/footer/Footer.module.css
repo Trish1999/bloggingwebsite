@@ -1,0 +1,35 @@
+.footer {
+    background-color: #797878;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footercontent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.links li {
+    display: inline;
+}
+
+.links a {
+    color: #faf7f7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #0c5980;
+}

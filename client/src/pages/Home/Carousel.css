@@ -1,0 +1,31 @@
+.carousel .slide img {
+    max-height: 65vh;
+    object-fit: cover;
+    filter:brightness(70%)
+}
+
+.carousel {
+    margin-bottom: 20px;
+}
+.carousel-text {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.carousel-text h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.carousel-text p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
